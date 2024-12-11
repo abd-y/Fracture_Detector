@@ -1,3 +1,16 @@
+'''
+This is a Deep Learning Course project for classifying x-ray bone images
+if thay have fracture on the bone or not. The images are from different parts of human body.
+
+The dataset used can be found in the following link: https://www.kaggle.com/datasets/bmadushanirodrigo/fracture-multi-region-x-ray-data
+
+The model tested on python 3.12.4
+python packages needed: torch torchvision torchaudio torchmetrics matplotlib
+
+Made by: abd-y
+'''
+
+
 from torch import nn
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
